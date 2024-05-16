@@ -32,3 +32,20 @@ function formatArrayStrings(strings, numbers){
     }
 
 }
+
+
+// task 1 usage example
+let numbers =[7, 4, 13, 0 , 1]
+console.log(processArray(numbers))
+
+// task 2 usage example
+let strings = ["Cat", "Life", "CaR", "dog", "schoOL"]
+modifiedNames = formatArrayStrings(strings, numbers)
+console.log(modifiedNames)
+
+module.exports = {
+    processArray,
+    formatArrayStrings,
+    modifiedNames
+};
+
