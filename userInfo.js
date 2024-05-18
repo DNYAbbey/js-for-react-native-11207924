@@ -1,6 +1,7 @@
 const { modifiedNames } = require("./arrayManipulation")
 
-function UserProfiles (names, modifiedName){
+// Task 3
+function UserProfiles (names, modifiedNames){
     let result = []
     if (names.length != modifiedNames.length){
         throw new Error("Arrays are not of the same length");

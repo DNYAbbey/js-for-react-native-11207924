@@ -1,3 +1,4 @@
+// Task 1
 function processArray(numbers){
     let result = []
     for(i in numbers){
@@ -5,13 +6,14 @@ function processArray(numbers){
             result.push(numbers[i] * numbers[i])
         }
         else{
-            result.push(numbers[i] * numbers[i] * numbers[i])
+            result.push(numbers[i] * 3)
         }
     }
     return result
 }
 
 
+// Task 2
 function formatArrayStrings(strings, numbers){
     let result = []
     if (strings.length != numbers.length){
